@@ -1,4 +1,4 @@
-easy-injector
+easy-folderator
 =============
 
-Simple injector library
+An easy way to automatically include and name modules in subdirectories.
