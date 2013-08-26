@@ -75,7 +75,7 @@ folderator
 
 ##Options
 
--	**rootDir** (*required*)
+-	**rootDir** *required*
 	- rootDir is a required option that tells which folder to package up.
 - **captializeModules**
 	- captializeModules is not required.  When a js file is required it will capitalize it when it attaches it to the packed object if this is set to true.
