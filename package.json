@@ -11,7 +11,9 @@
   ],
   "dependencies": {
     "lodash": "*",
-    "string": "*"
+    "string": "*",
+    "async": "*",
+    "easy-file-walker": "*"
   },
   "devDependencies": {
     "chai": "*",
