@@ -76,4 +76,4 @@ folderator
 ##Options
 
 +	rootDir
-++ bleh
+	+bleh
