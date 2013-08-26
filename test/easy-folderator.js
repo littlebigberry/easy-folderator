@@ -138,7 +138,7 @@ describe('folderator', function () {
 			folderator
 				.createPackage({
 					rootDir: dir,
-					captializeRequires: true
+					captializeModules: true
 				})
 				.then(function (pack) {
 					pack.should.have.property('TestModule');
