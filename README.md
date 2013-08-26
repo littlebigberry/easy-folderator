@@ -84,7 +84,7 @@ folderator
 	})
 ```
 
-Only rootDir is required.
+Only rootDir is required.  There are no default options so you must always pass an object with rootDir set to a string in order for the it to work.
 
 -	**rootDir** *required*
 	- rootDir is a required option that tells which folder to package up.
