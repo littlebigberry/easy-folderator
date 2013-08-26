@@ -75,6 +75,17 @@ folderator
 
 ##Options
 
+Options are passed to the createPackage function via an object:
+
+```js
+folderator
+	.createPackage({
+		rootDir: myPath
+	})
+```
+
+Only rootDir is required.
+
 -	**rootDir** *required*
 	- rootDir is a required option that tells which folder to package up.
 - **captializeModules**
