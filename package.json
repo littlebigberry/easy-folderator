@@ -1,7 +1,7 @@
 {
   "name": "easy-folderator",
   "description": "An easy way to automatically include and name modules in subdirectories.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Jesse Earle <jesse@littlebigberry.com>",
   "contributors": [
     {

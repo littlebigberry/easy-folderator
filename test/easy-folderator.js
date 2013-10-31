@@ -128,6 +128,25 @@ describe('folderator', function () {
 				.done();
 		});
 
+		it('should have property textFile', function (done) {
+			promise
+				.then(function (pack) {
+					pack.should.have.property('textFile');
+					done();
+				})
+				.done();
+		});
+
+		it('should equal hello', function (done) {
+			promise
+				.then(function (pack) {
+					console.log(pack);
+					pack.textFile.should.equal('hello');
+					done();
+				})
+				.done();
+		});
+
 	});
 
 	describe('#createPackage:"Option Handling"', function () {
